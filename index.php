@@ -14,7 +14,6 @@
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/script.js"></script>
 	</head>
-
 	<body data-spy="scroll" data-target=".navbar" data-offset="60">
       
 		<nav class="navbar navbar-expand-md navbar-dark sticky-top">
