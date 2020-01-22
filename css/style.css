@@ -1,10 +1,18 @@
 /* GENERAL */
 body{
     font-family: 'Lato', sans-serif;
+    word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
 }
+
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
 }
+
 img{
     max-width: 100%;
     height: auto;
@@ -25,21 +33,21 @@ section .heading h2{
 .red-divider{
     width: 100px;
     height: 2px;
-    background: #d82c2e;
+    background: #000;
     margin: 0 auto 20px;
 
 }
 .white-divider{
     width: 100px;
     height: 2px;
-    background: #fff;
+    background: #000;
     margin: 0 auto 20px;
 }
 
 
 /* MENU */
 .navbar {
-    background-color: #d82c2e;
+    background-color: #DDD;
     font-size: 12px;
     border-bottom: 1px solid #fff;
     letter-spacing: 4px;
@@ -47,11 +55,11 @@ section .heading h2{
     font-weight: bold;
 }
 .nav-pills .nav-link{
-    color: #fff !important;
+    color: #000 !important;
     text-align: center;
 }
 .nav-pills .nav-link.active,  .nav-pills .nav-link:hover{
-    color: #d82c2e !important;
+    color: #000 !important;
     background-color: #fff !important;
 }
 .navbar-toggler{
@@ -63,7 +71,7 @@ section .heading h2{
 /* ABOUT */
 #about{
     padding-top: 50px;
-    background: #d82c2e;
+    background: #DDD;
 }
 
 .profile-picture{
@@ -72,9 +80,10 @@ section .heading h2{
     float: none;
 }
 #about .heading h1{
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     margin-top: 20px;
+    text-shadow: 1px 1px 1px;
 }
 #about .heading h3{
     color: #000;
@@ -92,7 +101,7 @@ section .heading h2{
 }
 .button1:hover{
     background: white;
-    color: #d82c2e;
+    color: #000;
     text-decoration: none;
 }
 
@@ -102,7 +111,7 @@ section .heading h2{
 }
 
 #skills .heading h2 {
-    color: #d82c2e;
+    color: #000;
 }
 #skills .progress{
     height: auto;
@@ -110,20 +119,21 @@ section .heading h2{
     background: #ddd;
 }
 #skills .progress-bar{
-    background: #d82c2e;
+    background: #7d7c7c;
 }
 #skills .progress h5{
     margin-top: 5px;
-    text-shadow: 1px 1px 1px #000;
+    /*text-shadow: 1px 1px 1px #000;*/
+    color: #000;
 }
 
 
 /* EXPERIENCE */
 #experience{
-    background: #d82c2e;
+    background: #DDD;
 }
 #experience .heading h2{
-    color: #fff;
+    color: #000;
 }
 .timeline{
     padding: 30px 10px;
@@ -151,7 +161,7 @@ section .heading h2{
     display: table;
 }
 .timeline li .timeline-badge{
-    color: #d82c2e;
+    color: #6b6b6b;
     width: 50px;
     line-height: 50px;
     font-size: 20px;
@@ -208,7 +218,7 @@ section .heading h2{
     font-size: 20px;
 }
 .timeline-heading h4{
-     color: #d82c2e;
+     color: #000;
 }
 
 
@@ -217,7 +227,7 @@ section .heading h2{
     background: #fff;
 }
 #education .heading h2{
-    color: #d82c2e;
+    color: #000;
 }
 .education-block{
     width:90%;
@@ -239,7 +249,7 @@ section .heading h2{
     font-size: 35px;
 }
 .education-block h3{
-     color: #d82c2e;
+     color: #888;
 }
 .education-block h4{
    margin-bottom: 20px;
@@ -254,10 +264,10 @@ section .heading h2{
 
 /* PORTFOLIO */
 #portfolio{
-    background: #d82c2e;
+    background: #DDD;
 }
 #portfolio .heading h2{
-    color: #fff;
+    color: #000;
 }
 #portfolio img{
     width: 100%;
@@ -279,11 +289,11 @@ section .heading h2{
     background: #fff;
 }
 #recommandations .heading h2{
-    color: #d82c2e;
+    color: #000;
 }
 .fas.fa-chevron-left, .fas.fa-chevron-right{
     background-image: none;
-    color: #d82c2e;
+    color: #000;
 }
 .carousel-indicators{
     bottom: 0px;
@@ -292,16 +302,16 @@ section .heading h2{
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    border: 1px solid #d82c2e;
+    border: 1px solid #000;
 }
 .carousel-indicators li.active{
-    background-color: #d82c2e;
+    background-color: #000;
 }
 #myCarousel .carousel-item{
     padding: 40px 30px;
 }
 #myCarousel .carousel-item h3{
-    color: #d82c2e;
+    color: #000;
     font-style: italic;
 }
 
