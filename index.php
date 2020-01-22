@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<title>CV Babacar F</title>
+		<title>CV Babacar</title>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
@@ -25,7 +25,7 @@
 			
 			<div class="collapse navbar-collapse justify-content-center" id="myNavbar">
 				<ul class="nav nav-pills navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="#about">Moi</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">Mois</a></li>
 					<li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
 					<li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
 					<li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
