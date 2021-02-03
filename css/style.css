@@ -121,7 +121,7 @@ section .heading h2{
 #skills .progress-bar{
     background: #7d7c7c;
 }
-#skills .progress h5{
+#skills .progress h6{
     margin-top: 5px;
     /*text-shadow: 1px 1px 1px #000;*/
     color: #000;
