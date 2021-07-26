@@ -17,7 +17,10 @@ img{
     max-width: 100%;
     height: auto;
 }
-ul,ol{
+#experience .row{
+    list-style:none;
+}
+#experience .timeline{
     list-style:none;
 }
 section{
@@ -107,7 +110,8 @@ section .heading h2{
 
 /* SKILLS */
 #skills{
-    background: #fff;
+    /* background: #fff; */
+    background: #DDD;
 }
 
 #skills .heading h2 {
@@ -201,10 +205,10 @@ section .heading h2{
     top: 27px;
     right: -14px;
     display:inline-block;
-    border-top: 14px solid transparent;
+    /* border-top: 14px solid transparent;
     border-left: 14px solid #fff;
     border-right: 0 solid #fff;
-    border-bottom: 14px solid transparent;
+    border-bottom: 14px solid transparent; */
     content: " ";
 }
 .timeline-panel-container-inverted .timeline-panel:after{
